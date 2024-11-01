@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { ReactNode, useEffect, useState } from "react";
+import styles from "./searchable-layout.module.css";
 
 export default function SearchableLayout({
   children,
@@ -32,7 +33,7 @@ export default function SearchableLayout({
 
   return (
     <div>
-      <div>
+      <div className={styles.searchbar_container}>
         <input
           value={search}
           onKeyDown={onKeyDown}
