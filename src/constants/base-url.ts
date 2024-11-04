@@ -1,1 +1,2 @@
-export const BASE_URL = "http://localhost:12345";
+export const BASE_URL =
+  "https://onebite-books-server-main-topaz-six.vercel.app";
